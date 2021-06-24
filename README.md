@@ -14,3 +14,15 @@ Webpack 5: The Complete Guide by Viktor Pyskunov
 npm init -y
 npm install --save-dev webpack webpack-cli
 ```
+
+### 7. Integrating Webpack Into Our Js Application
+
+```
+<!-- It will generate main.js into dist folder -->
+npx webpack
+```
+
+```
+<!-- Executes with detailed stats including Endpoint -->
+npx webpack --stats detailed
+```
