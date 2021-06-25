@@ -44,5 +44,8 @@ module.exports = {
       }
     ]
   },
-  plugins: [new TerserPlugin()]
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin()]
+  }
 };

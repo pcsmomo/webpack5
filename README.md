@@ -142,6 +142,12 @@ presets: ['@babel/preset-env']
 
 ### 20. Minification of the Resulting Webpack Bundle
 
+#### [Terser Plugin](https://webpack.js.org/plugins/terser-webpack-plugin/)
+
+This plugin uses [terser](https://github.com/terser/terser) to minify bundle.js
+
+In my case, 16,562 bytes became 4,526 bytes
+
 > Note: Webpack v5 comes with the latest terser-webpack-plugin, no need to install
 
 ```sh
