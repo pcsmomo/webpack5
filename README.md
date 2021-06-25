@@ -1,6 +1,13 @@
-# webpack5
+# webpack 5
 
 Webpack 5: The Complete Guide by Viktor Pyskunov
+
+---
+
+## Details
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
 
 ### 3. Why Do We Need Webpack
 
@@ -26,3 +33,11 @@ npx webpack
 <!-- Executes with detailed stats including Endpoint -->
 npx webpack --stats detailed
 ```
+
+</details>
+
+---
+
+## What I have adjusted from the course
+
+## Next Step
