@@ -140,6 +140,14 @@ presets: ['@babel/preset-env']
 
 > Babel already knows that it is a preset since it is in the presets array, so it will add the preset- into the module name automatically.
 
+### 20. Minification of the Resulting Webpack Bundle
+
+> Note: Webpack v5 comes with the latest terser-webpack-plugin, no need to install
+
+```sh
+npm install --save-dev terser-webpack-plugin
+```
+
 </details>
 
 ---
