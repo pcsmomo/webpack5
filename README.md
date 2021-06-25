@@ -54,6 +54,12 @@ http-server
 
 #### Darn... It was a typo............ it works fine.
 
+### 10. Handling Images With Webpack 07:00
+
+```js
+type: 'asset/resource';
+```
+
 ### 11. publicPath
 
 ```js
@@ -69,6 +75,17 @@ publicPath: 'dist/';
 // <img alt="js-ninja" width="300" src="dist/ff77c1b019b1daac4225.jpeg">
 publicPath: 'https://some-cdn.com/';
 ```
+
+### 12. Asset/inline Module Type
+
+```js
+type: 'asset/inline';
+```
+
+It generates bigger size of bundle.js as the assets are injected to the bundle.
+
+Use case : For very small size of images or icons to reduce http request.
+Reason : Without this option, Webpack generates separated files for all assets and it makes the browser to make separate http requests for every asset and it could cost higher.
 
 </details>
 

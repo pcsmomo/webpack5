@@ -11,7 +11,7 @@ module.exports = {
     rules: [
       {
         test: /\.(png|jpg|jpeg)$/,
-        type: 'asset/resource'
+        type: 'asset/inline'
       }
     ]
   }
