@@ -105,6 +105,19 @@ Smaller than 8kb -> asset/inline
 npm install --save-dev css-loader style-loader
 ```
 
+### 17. Handling SASS
+
+Webpack processes loaders inside 'use' from the right side first \
+sass-loader → css-loader → style-loader
+
+```js
+use: ['style-loader', 'css-loader', 'sass-loader'];
+```
+
+```
+npm install --save-dev sass-loader sass
+```
+
 </details>
 
 ---
