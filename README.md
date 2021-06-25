@@ -99,6 +99,12 @@ As default, \
 Bigger than 8kb -> asset/resource \
 Smaller than 8kb -> asset/inline
 
+### 16. Handling CSS With Webpack
+
+```
+npm install --save-dev css-loader style-loader
+```
+
 </details>
 
 ---
