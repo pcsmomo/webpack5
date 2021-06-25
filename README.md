@@ -154,6 +154,16 @@ In my case, 16,562 bytes became 4,526 bytes
 npm install --save-dev terser-webpack-plugin
 ```
 
+### 21. Extracting CSS Into a Separate Bundle With mini-css-extract-plugin, Part 1
+
+#### [Mini Css Extract Plugin](https://webpack.js.org/plugins/mini-css-extract-plugin/)
+
+This plugin extracts CSS into separate files. It creates a CSS file per JS file which contains CSS. It supports On-Demand-Loading of CSS and SourceMaps.
+
+```sh
+npm install --save-dev mini-css-extract-plugin
+```
+
 </details>
 
 ---
