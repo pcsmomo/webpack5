@@ -84,8 +84,20 @@ type: 'asset/inline';
 
 It generates bigger size of bundle.js as the assets are injected to the bundle.
 
-Use case : For very small size of images or icons to reduce http request.
+Use case : For very small size of images or icons to reduce http request. \
 Reason : Without this option, Webpack generates separated files for all assets and it makes the browser to make separate http requests for every asset and it could cost higher.
+
+### 13. General Asset Type
+
+```js
+type: 'asset';
+```
+
+This option make Webpack automatically to choose the policy whether 'asset/inline' or 'asset/resource'
+
+As default, \
+Bigger than 8kb -> asset/resource \
+Smaller than 8kb -> asset/inline
 
 </details>
 

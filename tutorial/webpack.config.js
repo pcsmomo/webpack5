@@ -11,7 +11,12 @@ module.exports = {
     rules: [
       {
         test: /\.(png|jpg|jpeg)$/,
-        type: 'asset/inline'
+        type: 'asset',
+        parser: {
+          dataUrlCondition: {
+            maxSize: 3 * 1024 // 3 kilobytes, The default size is 8kb
+          }
+        }
       }
     ]
   }
