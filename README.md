@@ -70,7 +70,7 @@ publicPath: '';
 publicPath: 'auto';
 // <img alt="js-ninja" width="300" src="file:///Users/noah/Documents/Study/Study_devops/udemy/webpack5/webpack5-git/tutorial/dist/ff77c1b019b1daac4225.jpeg">
 
-// Can change
+// Can be changed
 publicPath: 'dist/';
 // <img alt="js-ninja" width="300" src="dist/ff77c1b019b1daac4225.jpeg">
 publicPath: 'https://some-cdn.com/';
@@ -78,8 +78,8 @@ publicPath: 'https://some-cdn.com/';
 
 ### 12. Asset/inline Module Type
 
-```js
-type: 'asset/inline';
+```json
+type: 'asset/inline'
 ```
 
 It generates bigger size of bundle.js as the assets are injected to the bundle.
@@ -89,8 +89,8 @@ It generates bigger size of bundle.js as the assets are injected to the bundle.
 
 ### 13. General Asset Type
 
-```js
-type: 'asset';
+```json
+type: 'asset'
 ```
 
 This option make Webpack automatically to choose the policy whether 'asset/inline' or 'asset/resource'
@@ -107,16 +107,38 @@ npm install --save-dev css-loader style-loader
 
 ### 17. Handling SASS
 
-Webpack processes loaders inside 'use' from the right side first \
-sass-loader → css-loader → style-loader
+> Webpack processes loaders inside 'use' from the right side first \
+> sass-loader → css-loader → style-loader
 
-```js
-use: ['style-loader', 'css-loader', 'sass-loader'];
+```json
+use: ['style-loader', 'css-loader', 'sass-loader']
 ```
 
 ```
 npm install --save-dev sass-loader sass
 ```
+
+### 18. Using Latest JavaScript Features With Babel
+
+```
+npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/plugin-proposal-class-properties
+```
+
+> Unlike the lecture, webpack 5 build class properties without babel, \
+> Moreover, babel works without '@babel/plugin-proposal-class-properties' \
+> Apparently, updated versions includs some stuff.
+
+```json
+"webpack": "^5.40.0",
+"@babel/core": "^7.14.6"
+```
+
+```json
+presets: ['@babel/env']
+presets: ['@babel/preset-env']
+```
+
+> Babel already knows that it is a preset since it is in the presets array, so it will add the preset- into the module name automatically.
 
 </details>
 
