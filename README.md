@@ -34,10 +34,34 @@ npx webpack
 npx webpack --stats detailed
 ```
 
+### 8. Custom Webpack Configuration
+
+```
+npx webpack
+```
+
+### Got an error
+
+> **⚠ Error: Uncaught ReferenceError: helloWorld is not defined.**
+
+Tried to import index.js back and solve a CORS problem on google, but did not go well. \
+Maybe it needs babel?
+
+```
+npm install -g http-server
+http-server
+```
+
 </details>
 
 ---
 
 ## What I have adjusted from the course
 
+- In-Depth Look on webpack.config.js in Create-React-App
+
 ## Next Step
+
+```
+
+```
