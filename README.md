@@ -164,6 +164,10 @@ This plugin extracts CSS into separate files. It creates a CSS file per JS file 
 npm install --save-dev mini-css-extract-plugin
 ```
 
+### 22. Extracting CSS Into a Separate Bundle, Part 2
+
+> Note: styles.css is generated in order of imports in in index.js
+
 </details>
 
 ---
