@@ -52,6 +52,8 @@ npm install -g http-server
 http-server
 ```
 
+#### Darn... It was a typo............ it works fine.
+
 </details>
 
 ---
