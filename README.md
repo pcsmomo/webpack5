@@ -40,7 +40,7 @@ npx webpack --stats detailed
 npx webpack
 ```
 
-### Got an error
+#### Got an error
 
 > **⚠ Error: Uncaught ReferenceError: helloWorld is not defined.**
 
@@ -53,6 +53,22 @@ http-server
 ```
 
 #### Darn... It was a typo............ it works fine.
+
+### 11. publicPath
+
+```js
+// Webpack 4 - Default
+publicPath: '';
+
+// Webpack 5 - Default
+publicPath: 'auto';
+// <img alt="js-ninja" width="300" src="file:///Users/noah/Documents/Study/Study_devops/udemy/webpack5/webpack5-git/tutorial/dist/ff77c1b019b1daac4225.jpeg">
+
+// Can change
+publicPath: 'dist/';
+// <img alt="js-ninja" width="300" src="dist/ff77c1b019b1daac4225.jpeg">
+publicPath: 'https://some-cdn.com/';
+```
 
 </details>
 
