@@ -240,6 +240,12 @@ npm install --save react
 
 > if the library is lower or equal to 30, it will not chunk.
 
+### 44. Integrating Express Into Our Application
+
+```sh
+npm install --save express
+```
+
 </details>
 
 ---
