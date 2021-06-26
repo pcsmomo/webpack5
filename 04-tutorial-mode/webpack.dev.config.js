@@ -10,6 +10,7 @@ module.exports = {
     publicPath: 'auto'
   },
   mode: 'development',
+  devtool: 'inline-source-map',
   devServer: {
     contentBase: path.resolve(__dirname, './dist'),
     index: 'index.html',
