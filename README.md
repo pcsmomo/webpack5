@@ -215,7 +215,8 @@ npm install --save handlebars
 
 ### 30. Mode
 
-"development" mode displays logs that developers can easily follow.
+"development" mode displays logs that developers can easily follow. \
+"none" mode apparently follows "production" mode?
 
 </details>
 
