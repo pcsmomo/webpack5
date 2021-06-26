@@ -1,12 +1,12 @@
 if (module.hot) module.hot.accept();
 
-import _ from 'lodash';
+import React from 'react';
 
 import Heading from './components/heading/heading.js';
 import HelloWorldButton from './components/hello-world-button/hello-world-button.js';
 
 const heading = new Heading();
-heading.render(_.upperFirst('hello world'));
+heading.render('hello world');
 
 const helloWorldButton = new HelloWorldButton();
 helloWorldButton.render();

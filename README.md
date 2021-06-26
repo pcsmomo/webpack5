@@ -230,6 +230,16 @@ npm install --save-dev webpack-dev-server
 npm install --save lodash
 ```
 
+### 39. Setting Custom Options for Code Splitting
+
+```sh
+npm install --save react
+```
+
+#### [SplitChunksPlugin](https://webpack.js.org/plugins/split-chunks-plugin/)
+
+> if the library is lower or equal to 30, it will not chunk.
+
 </details>
 
 ---

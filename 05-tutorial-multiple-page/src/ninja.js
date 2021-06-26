@@ -1,10 +1,10 @@
-import _ from 'lodash';
+import React from 'react';
 
 import Heading from './components/heading/heading.js';
 import NinjaImage from './components/ninja-image/ninja-image.js';
 
 const heading = new Heading();
-heading.render(_.upperFirst('ninja'));
+heading.render('ninja');
 
 const ninjaImage = new NinjaImage();
 ninjaImage.render();
