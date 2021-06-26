@@ -270,6 +270,8 @@ kiwi %  npm run build && npm run start
 ## What I have adjusted from the course
 
 - In-Depth Look on webpack.config.js in Create-React-App
+- Module Federation : Using modules from other apps
+- Micro Frontend Architecture
 
 ## Next Step
 
