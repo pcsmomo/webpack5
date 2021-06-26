@@ -179,6 +179,12 @@ filename: 'bundle.[contenthash].js'
 filename: 'styles.[contenthash].css'
 ```
 
+### 24. How To Clean Dist Folder Before Generating New Bundles
+
+```sh
+npm install --save-dev clean-webpack-plugin
+```
+
 </details>
 
 ---
