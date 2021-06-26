@@ -218,6 +218,12 @@ npm install --save handlebars
 "development" mode displays logs that developers can easily follow. \
 "none" mode apparently follows "production" mode?
 
+### 32. Faster Development with webpack dev server
+
+```sh
+npm install --save-dev webpack-dev-server
+```
+
 </details>
 
 ---

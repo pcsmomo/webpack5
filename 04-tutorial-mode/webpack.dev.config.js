@@ -10,6 +10,12 @@ module.exports = {
     publicPath: 'auto'
   },
   mode: 'development',
+  devServer: {
+    contentBase: path.resolve(__dirname, './dist'),
+    index: 'index.html',
+    port: 9000,
+    writeToDisk: true
+  },
   module: {
     rules: [
       {
