@@ -213,6 +213,10 @@ npm install --save handlebars
 
 #### [Webpack Plugins](https://webpack.js.org/plugins/)
 
+### 30. Mode
+
+"development" mode displays logs that developers can easily follow.
+
 </details>
 
 ---
