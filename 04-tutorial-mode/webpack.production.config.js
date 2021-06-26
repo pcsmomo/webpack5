@@ -1,5 +1,4 @@
 const path = require('path');
-const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -11,7 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     publicPath: 'auto'
   },
-  mode: 'none',
+  mode: 'production',
   module: {
     rules: [
       {
@@ -51,10 +50,6 @@ module.exports = {
         use: ['handlebars-loader']
       }
     ]
-  },
-  optimization: {
-    minimize: true,
-    minimizer: [new TerserPlugin()]
   },
   plugins: [
     new MiniCssExtractPlugin({
