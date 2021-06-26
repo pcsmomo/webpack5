@@ -193,7 +193,12 @@ npm install --save-dev clean-webpack-plugin
 npm install --save-dev html-webpack-plugin
 ```
 
-> Note: dist/index.html is not really related to src/index.html at this moment.
+> Note: dist/index.html is not really related to src/index.html at this moment. \
+> Refer 'template' option on React-Create-App
+
+### 26. Customizing Generated HTML Files
+
+#### [HtmlWebpackPlugin Options](https://github.com/jantimon/html-webpack-plugin#options)
 
 </details>
 
