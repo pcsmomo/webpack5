@@ -224,6 +224,12 @@ npm install --save handlebars
 npm install --save-dev webpack-dev-server
 ```
 
+### 38. Extracting Common Dependencies While Code Splitting
+
+```sh
+npm install --save lodash
+```
+
 </details>
 
 ---
