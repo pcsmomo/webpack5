@@ -209,6 +209,10 @@ npm install --save-dev handlebars-loader
 npm install --save handlebars
 ```
 
+### 28. More Webpack Plugins
+
+#### [Webpack Plugins](https://webpack.js.org/plugins/)
+
 </details>
 
 ---
