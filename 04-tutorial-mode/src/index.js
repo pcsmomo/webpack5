@@ -1,3 +1,5 @@
+module.hot.accept();
+
 import Heading from './components/heading/heading.js';
 import HelloWorldButton from './components/hello-world-button/hello-world-button.js';
 
