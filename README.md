@@ -251,6 +251,18 @@ console.log(process.cwd()); // ...graphql/
 console.log(__dirname); // ...graphql/server
 ```
 
+### 52. Consuming Federated Modules
+
+Two apps need to be run at the same time.
+
+```sh
+hello-world %  npm run build && npm run start
+> Application is running on http://localhost:9001/
+
+kiwi %  npm run build && npm run start
+> Application is running on http://localhost:9002/
+```
+
 </details>
 
 ---
