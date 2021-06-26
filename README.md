@@ -168,6 +168,17 @@ npm install --save-dev mini-css-extract-plugin
 
 > Note: styles.css is generated in order of imports in in index.js
 
+### 23. Browser Caching
+
+#### [contenthash](https://webpack.js.org/guides/caching/#output-filenames)
+
+The [contenthash] substitution will add a unique hash based on the content of an asset.
+
+```json
+filename: 'bundle.[contenthash].js'
+filename: 'styles.[contenthash].css'
+```
+
 </details>
 
 ---
