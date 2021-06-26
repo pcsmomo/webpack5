@@ -66,10 +66,20 @@ module.exports = {
       ]
     }),
     new HtmlWebpackPlugin({
-      // filename: 'subfolder/custom_filename.html',
-      template: 'src/index.hbs',
+      filename: 'hello-world.html',
+      chunks: ['hello-world'],
+      template: 'src/page-template.hbs',
       title: "Noah's Hello World",
-      description: 'Webpack5 Udemy Lecture'
+      description: 'Hello world',
+      minify: false
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'ninja.html',
+      chunks: ['ninja'],
+      template: 'src/page-template.hbs',
+      title: 'Javascript Ninja',
+      description: 'I am going to be a javascript ninja',
+      minify: false
     })
   ]
 };
