@@ -62,18 +62,18 @@ type: 'asset/resource';
 
 ### 11. publicPath
 
-```js
+```json
 // Webpack 4 - Default
-publicPath: '';
+publicPath: ''
 
 // Webpack 5 - Default
-publicPath: 'auto';
+publicPath: 'auto'
 // <img alt="js-ninja" width="300" src="file:///Users/noah/Documents/Study/Study_devops/udemy/webpack5/webpack5-git/tutorial/dist/ff77c1b019b1daac4225.jpeg">
 
 // Can be changed
-publicPath: 'dist/';
+publicPath: 'dist/'
 // <img alt="js-ninja" width="300" src="dist/ff77c1b019b1daac4225.jpeg">
-publicPath: 'https://some-cdn.com/';
+publicPath: 'https://some-cdn.com/'
 ```
 
 ### 12. Asset/inline Module Type
@@ -184,6 +184,16 @@ filename: 'styles.[contenthash].css'
 ```sh
 npm install --save-dev clean-webpack-plugin
 ```
+
+### 25. Generating HTML Files Automatically During Webpack Build Process
+
+#### [HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/)
+
+```sh
+npm install --save-dev html-webpack-plugin
+```
+
+> Note: dist/index.html is not really related to src/index.html at this moment.
 
 </details>
 
