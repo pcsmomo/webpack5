@@ -246,6 +246,11 @@ npm install --save react
 npm install --save express
 ```
 
+```js
+console.log(process.cwd()); // ...graphql/
+console.log(__dirname); // ...graphql/server
+```
+
 </details>
 
 ---
