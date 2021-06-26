@@ -200,6 +200,15 @@ npm install --save-dev html-webpack-plugin
 
 #### [HtmlWebpackPlugin Options](https://github.com/jantimon/html-webpack-plugin#options)
 
+### 27. Integration with Handlebars
+
+#### [Template Options](https://github.com/jantimon/html-webpack-plugin/blob/main/docs/template-option.md)
+
+```sh
+npm install --save-dev handlebars-loader
+npm install --save handlebars
+```
+
 </details>
 
 ---

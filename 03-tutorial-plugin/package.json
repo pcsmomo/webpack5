@@ -16,6 +16,7 @@
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^5.2.6",
+    "handlebars-loader": "^1.7.1",
     "html-webpack-plugin": "^5.3.2",
     "mini-css-extract-plugin": "^1.6.1",
     "sass": "^1.35.1",
@@ -23,5 +24,8 @@
     "style-loader": "^3.0.0",
     "webpack": "^5.40.0",
     "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
   }
 }
