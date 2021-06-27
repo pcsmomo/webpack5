@@ -297,6 +297,15 @@ dashboard %  npm run build && npm run start
 > Application is running on http://localhost:9000/
 ```
 
+### 60. Configuring ESLint
+
+[ESLint Rules](https://eslint.org/docs/rules/)
+
+```sh
+npm install --save eslint
+npm install --save-dev babel-eslint
+```
+
 </details>
 
 ---

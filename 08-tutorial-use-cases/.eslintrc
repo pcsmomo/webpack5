@@ -1,0 +1,26 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint", // Class Component, Etc.
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true, // require, Etc.
+    "browser": true // document, Etc.
+  },
+  "rules": {
+    "no-console": "off",
+    "no-redeclare": "off",
+    "no-cond-assign": "off",
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "no-control-regex": "off",
+    "no-prototype-builtins": "off",
+    "no-useless-escape": "off",
+    "no-empty": "off",
+    "no-self-assign": "off",
+    "no-fallthrough": "off",
+    "no-sparse-arrays": "off"
+  }
+}
