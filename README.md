@@ -263,6 +263,13 @@ kiwi %  npm run build && npm run start
 > Application is running on http://localhost:9002/
 ```
 
+### 56. Micro Frontends In Action, Part 2
+
+```sh
+npm install --save-dev webpack webpack-cli webpack-dev-server mini-css-extract-plugin html-webpack-plugin clean-webpack-plugin babel-loader @babel/core @babel/preset-env
+npm install --save express
+```
+
 </details>
 
 ---
