@@ -251,9 +251,13 @@ console.log(process.cwd()); // ...graphql/
 console.log(__dirname); // ...graphql/server
 ```
 
+### 51. Setting Up Module Federation
+
+#### [Module Federation](https://webpack.js.org/concepts/module-federation/)
+
 ### 52. Consuming Federated Modules
 
-Two apps need to be run at the same time.
+Two apps need to be running at the same time.
 
 ```sh
 hello-world %  npm run build && npm run start
@@ -263,11 +267,34 @@ kiwi %  npm run build && npm run start
 > Application is running on http://localhost:9002/
 ```
 
+### 54. Creating Micro Frontends 07:18
+
+#### [Micro Frontends](https://micro-frontends.org/)
+
 ### 56. Micro Frontends In Action, Part 2
 
 ```sh
 npm install --save-dev webpack webpack-cli webpack-dev-server mini-css-extract-plugin html-webpack-plugin clean-webpack-plugin babel-loader @babel/core @babel/preset-env
 npm install --save express
+```
+
+### 57. Navigation Bar Component
+
+```sh
+npm install --save-dev style-loader css-loader sass-loader node-sass
+```
+
+Three apps need to be running at the same time.
+
+```sh
+hello-world %  npm run build && npm run start
+> Application is running on http://localhost:9001/
+
+kiwi %  npm run build && npm run start
+> Application is running on http://localhost:9002/
+
+dashboard %  npm run build && npm run start
+> Application is running on http://localhost:9000/
 ```
 
 </details>
@@ -278,7 +305,7 @@ npm install --save express
 
 - In-Depth Look on webpack.config.js in Create-React-App
 - Module Federation : Using modules from other apps
-- Micro Frontend Architecture
+- Micro Frontends Architecture
 
 ## Next Step
 
