@@ -20,7 +20,7 @@ module.exports = {
       },
       {
         test: /\.txt/,
-        type: 'asset/source'
+        type: 'asset/resource'
       },
       {
         test: /\.css$/,

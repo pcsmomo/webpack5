@@ -318,6 +318,22 @@ npm install --save-dev babel-eslint
 
 ## Next Step
 
-```
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### mode: "none" vs mode: "development"
+
+```js
+// bundle.js
+
+// none mode
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+
+// development mode
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)"
 
 ```
+
+</details>
